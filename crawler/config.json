@@ -1,0 +1,24 @@
+{
+  "consumer_key": "S0eThCgfWLgdnjp94L4C939aB",
+  "consumer_secret": "RXJn3sPtIZNFYVu2EVUC6XsGIJHg4tyvc8ppLwADcGJs38KCrN",
+  "access_token": "601221795-0daWtkPc3ZBSckcFhXxUyK2By1nv80wAdVoUA6dp",
+  "access_token_secret": "9luuf8F3oxwuu9IbbM1IBXg5eXPHly2Ay5YYvQdGyBndT",
+  "places": [
+    {"name": "New York, NY, USA", "northeast": {"lat": 40.91525559999999, "lng": -73.70027209999999}, "southwest": {"lat": 40.4913699, "lng": -74.25908989999999}},
+    {"name": "Los Angeles, CA, USA", "northeast": {"lat": 34.3373061, "lng": -118.1552891}, "southwest": {"lat": 33.7036917, "lng": -118.6681759}},
+    {"name": "Chicago, IL, USA", "northeast": {"lat": 42.023131, "lng": -87.52404399999999}, "southwest": {"lat": 41.6443349, "lng": -87.9402669}},
+    {"name": "Houston, TX, USA", "northeast": {"lat": 30.1107319, "lng": -95.014496}, "southwest": {"lat": 29.523624, "lng": -95.78808690000001}},
+    {"name": "Philadelphia, PA, USA", "northeast": {"lat": 40.1379919, "lng": -74.9557629}, "southwest": {"lat": 39.8715136, "lng": -75.280303}},
+    {"name": "Phoenix, AZ, USA", "northeast": {"lat": 33.92057, "lng": -111.926046}, "southwest": {"lat": 33.29025980000001, "lng": -112.324056}},
+    {"name": "San Antonio, TX, USA", "northeast": {"lat": 29.73872, "lng": -98.22295799999999}, "southwest": {"lat": 29.2241411, "lng": -98.8058509}},
+    {"name": "San Diego, CA, USA", "northeast": {"lat": 33.114249, "lng": -116.90816}, "southwest": {"lat": 32.534856, "lng": -117.2821665}},
+    {"name": "Dallas, TX, USA", "northeast": {"lat": 33.0237921, "lng": -96.4637379}, "southwest": {"lat": 32.617537, "lng": -96.9989413}},
+    {"name": "San Jose, CA, USA", "northeast": {"lat": 37.4695381, "lng": -121.589154}, "southwest": {"lat": 37.124493, "lng": -122.0456679}},
+    {"name": "Austin, TX, USA", "northeast": {"lat": 30.5168629, "lng": -97.5684199}, "southwest": {"lat": 30.0986589, "lng": -97.9383829}},
+    {"name": "Indianapolis, IN, USA", "northeast": {"lat": 39.927392, "lng": -85.9373789}, "southwest": {"lat": 39.632177, "lng": -86.32812109999999}},
+    {"name": "Jacksonville, FL, USA", "northeast": {"lat": 30.586232, "lng": -81.3914121}, "southwest": {"lat": 30.103748, "lng": -82.0495018}},
+    {"name": "San Francisco, CA, USA", "northeast": {"lat": 37.812, "lng": -122.3482}, "southwest": {"lat": 37.70339999999999, "lng": -122.527}},
+    {"name": "Columbus, OH, USA", "northeast": {"lat": 40.1572719, "lng": -82.77137809999999}, "southwest": {"lat": 39.808631, "lng": -83.2102799}}
+  ],
+  "output": "/media/external/big_data/twitter.txt"
+}
