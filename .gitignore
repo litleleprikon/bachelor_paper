@@ -8,6 +8,9 @@ __pycache__/
 # PyCharm settings folder
 .idea/
 
+# Crawler config
+crawler/config.json
+
 # Distribution / packaging
 .Python
 env/
