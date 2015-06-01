@@ -13,6 +13,7 @@ def main():
 
         if last_key is not None and last_key != key:
             print('{}\t{}'.format(last_key, count))
+            count = 0
 
         last_key = key
         count += int(value)
