@@ -29,7 +29,13 @@ Crawler require special config file, named `config.json`
 
 
 ## Mapper
-This python script is responds for Map phase of MapReduce program
+`mapper.py` script is responds for Map phase of MapReduce program  
+* The first step is to process hashtags and split it to separate words.
+* Second step is removing of users links and http links from tweet
+* Third step is separating of tweet terms. Terms includes emoticons
+After this simple steps script count sentiment value of tweets, using special dictionary
+and returns 1 if tweet positive or 0 if tweet negative.
+
 
 ## Reducer
 `reducer.py` script is responds for reduce phase of MapReduce program.
@@ -44,3 +50,7 @@ $HADOOP_INSTALL/bin/hadoop jar $HADOOP_INSTALL/share/hadoop/tools/lib/hadoop-str
 -mapper "mapper.py" \  
 -file "reducer.py" \  
 -reducer "reducer.py"  
+
+## Dictionary
+MongoDB is used to store dictionary. In this project I used dictionary, that was created by Alex Davies, 
+[visit his site](http://alexdavies.net/twitter-sentiment-analysis/)

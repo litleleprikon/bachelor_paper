@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 from tweepy import OAuthHandler, Stream
 from app_libs.stream import Listener
-
+from os import path
 __author__ = 'litleleprikon'
 
 
@@ -16,7 +16,7 @@ class MainRunner:
         self._run_listener()
 
     def _run_listener(self):
-        listener = Listener(self.out)
+        listener = Listener(self.out, self._conf.places)
         stream = Stream(self._auth, listener)
         locations = []
         for city in self._conf.places:
@@ -30,7 +30,10 @@ class MainRunner:
             try:
                 self._out = open(self._conf.output, 'a')
             except FileNotFoundError:
-                self._out = open('output.txt', 'w')
+                if path.exists('output.txt'):
+                    self._out = open('output.txt', 'a')
+                else:
+                    self._out = open('output.txt', 'a')
         return self._out
 
     def __del__(self):
